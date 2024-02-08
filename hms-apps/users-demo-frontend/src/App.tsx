@@ -9,7 +9,7 @@ import {
 } from '@tanstack/react-query'
 
 function App() {
-  const baseUrl = "/";
+  const baseUrl = "/v1";
   //create a react query client at the top
   // Create a client
   const queryClient = new QueryClient()
@@ -29,4 +29,4 @@ function App() {
   )
 }
 
-export default App
+export default App 
